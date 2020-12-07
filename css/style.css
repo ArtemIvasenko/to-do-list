@@ -1,0 +1,20 @@
+body {
+    background-color: #c7e4ec;
+}
+.task_list {
+    width: 100%;
+}
+
+.task_list .title {
+    border-radius: 5px;
+}
+
+.task_list th {
+    background-color: #25258a;
+    color: white;
+    padding: 10px 15px;
+}
+
+.task_list td {
+    padding: 10px 15px;
+}
