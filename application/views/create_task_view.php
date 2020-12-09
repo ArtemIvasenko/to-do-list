@@ -1,6 +1,6 @@
 <div class="container">
     <h1>Создание новой задачи!</h1>
-    <a href="/task/index">Вернуться к списку задач</a><br><br>
+    <a href="task/index">Вернуться к списку задач</a><br><br>
     <?php if ($error != null) { ?>
         <div class="alert alert-danger" role="alert">
           <strong>О нет!</strong> <?=$error ?>

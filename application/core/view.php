@@ -5,6 +5,7 @@ class View
 
     public $title;
 
+
 	function generate($content_view, $template_view, $data = null)
 	{
 

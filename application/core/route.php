@@ -1,25 +1,16 @@
 <?php
 class Route
 {
-	static function start()
+
+
+	public  function start()
 	{
 		// контроллер и действие по умолчанию
 		$controller_name = 'Task';
 		$action_name = 'index';
 
 		$routes = explode('/', $_SERVER['REQUEST_URI']);
-		$position = array_reverse(explode('/', __DIR__));
 
-		for($i=1; $i < count($routes); $i++) {
-		    if($routes[$i] == $position[$i+1]) {
-                array_shift($routes);
-                array_shift($position);
-            }
-        }
-
-		print_r($routes);
-		echo '<br>';
-		print_r($position);
 
 
 		// получаем имя контроллера
